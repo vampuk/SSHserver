@@ -1,0 +1,2 @@
+# SSHserver
+prefork 2
