@@ -94,7 +94,7 @@ void newTask(int task)
 		else{pthread_mutex_unlock(&locks[i]);}
 	}	
 	close(task);//Закрыть подключение
-	printf("All threads are bisy.\n");
+	printf("All proc are bisy.\n");
 }
 
 void start_server()
