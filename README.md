@@ -1,2 +1,2 @@
 # SSHserver
-prefork 2
+thread 3
