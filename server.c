@@ -106,7 +106,6 @@ void start_server()
 	servNew.sin_port = htons(8080);
 	servNew.sin_addr.s_addr = INADDR_ANY;		
 	int bindRes = bind(ld, (struct sockaddr *)&servNew, sizeof(servNew));
-	socklen_t sizeServ;
 	if (bindRes == -1){printf("Bind error\n");}	
 	int listenRes = listen(ld, 10);
 	if (listenRes == -1){printf("Listen error\n");}	
